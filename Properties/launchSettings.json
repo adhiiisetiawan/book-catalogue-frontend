@@ -18,7 +18,7 @@
     "BooksCatalogue": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://katalog-buku.azurewebsites.net",
+      "applicationUrl": "https://katalog-buku-frontend.azurewebsites.net/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
