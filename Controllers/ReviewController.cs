@@ -10,12 +10,12 @@ namespace BooksCatalogue.Controllers
 {
     public class ReviewController : Controller
     {
-        //         private string apiEndpoint = "https://localhost:8000/api/";
+        // private string apiEndpoint = "https://localhost:8000/api/";
         // private string apiEndpoint2 = "https://localhost:8000/api/review/";
         // public string baseUrl = "https://localhost:5001/Books/Details/";
         private string apiEndpoint = "https://katalog-buku-api.azurewebsites.net/api/";
         private string apiEndpoint2 = "https://katalog-buku-api.azurewebsites.net/api/review/";
-        public string baseUrl = "https://katalog-buku-frontend.azurewebsites.net/Books/Details/";
+        public string baseUrl = "https://frontend-katalog-buku2.azurewebsites.net/Books/Details/";
         public HttpClient _client;
         HttpClientHandler clientHandler = new HttpClientHandler();
         
